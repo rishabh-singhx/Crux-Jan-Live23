@@ -43,8 +43,8 @@ public class Right_Side_View {
 				ll.add(root.val);
 				visited = curr;
 			}
-			view(root.left, curr + 1, ll);
 			view(root.right, curr + 1, ll);
+			view(root.left, curr + 1, ll);
 		}
 
 	}
